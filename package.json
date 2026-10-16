@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Conta fotos por grupo de WhatsApp (somente leitura) e grava no Supabase para o ControlPro.",
+  "scripts": { "start": "node index.js", "test": "node test.js" },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.3",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4"
+  }
+}
